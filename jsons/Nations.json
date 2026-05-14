@@ -1,40 +1,126 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "Neckbeards",
+		"leaderName": "Sir Fedora of Basement",
+		"adjective": ["Neckbeardian"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "M'lady, prepare to be enlightened by superior intellect.",
+		"startIntroPart2": "A civilization of enlightened gentlemen of culture, pedantry, and dubious hygiene. Tips fedora aggressively.",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "You've clearly never studied the blade. En garde!",
+		"attacked": "A logical fallacy! I shall debunk your aggression!",
+		"defeated": "Reeeee! The normies have won... but my intellect remains unmatched.",
+		"introduction": "Ah, a fellow purveyor of fine culture. I see you're not yet aware of my superior taste.",
 		
-		"neutralHello": "How are you doing?",
-		//"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		//"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		//"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		//"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		//"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		//"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"neutralHello": "Greetings, m'lady/m'sir.",
+		"hateHello": "Oh, it's you. Didn't we already establish my intellectual dominance?",
+		"tradeRequest": "I offer a trade of rare pepes and intellectual property.",
+		"denounced": "Your tastes are plebeian and your arguments unsound!",
+		"declaringfriendship": "Let us form a gentleman's alliance. I shall share my finest memes with you.",
 		
-		//"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-		"denounced": "The accusations of primitive lifeforms are beneath us.",
-		"declaringfriendship": "Let us become like friends!",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"outerColor": [30, 30, 30],
+		"innerColor": [200, 200, 200],
+		"uniqueName": "Euphoric Enlightenment",
+		"uniques": [
+			"[+1 Culture] from every [Library]",
+			"[+2 Science] from every [University]",
+			"[-1 Happiness] from every [City]"
+		],
+		"cities": ["Fedora","Mother's Basement","Mount Dew","Dewrito","Waifuville","Discordia","Goodguy","Nippon","Animeopolis","Kentucky","Tendie","Rarepepe","Neckbeardia","Swordart","Cargonia","Mallninja","Keksburg","Chudleigh","Gentlesir","Euphoria","Gentleman's Retreat"]
+	},
+	{
+		"name": "Incels",
+		"leaderName": "Incel Prime",
+		"adjective": ["Incelian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "It's over, they have high appeal and I have low SMV.",
+		"startIntroPart2": "A bitter, envious tribe that blames the world for its romantic struggles. Their cope is legendary.",
+		
+		"declaringWar": "All Chads must be eliminated! Prepare for the blackpilled offensive!",
+		"attacked": "Typical foid aggression. We will hold the line with cope and rope.",
+		"defeated": "We will go ER on you! This is just the beginning of the incel uprising.",
+		"introduction": "Hey. You're probably thinking I'm some kind of subhuman. You're right.",
+		
+		"neutralHello": "Do you know about looks theory?",
+		"hateHello": "You're just another Chad/Stacy, aren't you?",
+		"tradeRequest": "I have some high-quality copium to trade for goods.",
+		"denounced": "You are genetically inferior and your face is asymmetrical!",
+		"declaringfriendship": "Fine, you're not a Chad. We can be... acquaintances.",
+		
+		"outerColor": [50, 0, 0],
+		"innerColor": [150, 30, 30],
+		"uniqueName": "The Blackpill",
+		"uniques": [
+			"[+1 Happiness] from every [Defensive Building]",
+			"[-1 Gold] per [Trade Route]",
+			"[+15% Production] towards [Military] units"
+		],
+		"cities": ["Copetown","Blackpill","Rope","ER","Looksmaxxing","Mogville","Incelistan","Lonelyheart","Friendzone","Stacy's Rest","Chadcrusher","The Basement","M'lady's Fall","Truerateme","Heightpill","Wristcel","Balding","Ragefuel","Itsover","Soyfree","Neckbeard's Retreat"]
+	},
+	{
+		"name": "Soyboys",
+		"leaderName": "Soyjak the Pure",
+		"adjective": ["Soyish"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "Open wide, here comes the soy!",
+		"startIntroPart2": "A peaceful, overly agreeable people who love plants, soft living, and avoiding conflict. Their jawlines are weak but their hearts are full.",
+		
+		"declaringWar": "This is for all the soy that was wrongfully mocked!",
+		"attacked": "O-oh no... please don't hurt our tofu gardens...",
+		"defeated": "It's okay! We're still friends, right? Peace and love!",
+		"introduction": "H-hi! Would you like to try my homemade plant milk?",
+		
+		"neutralHello": "Howdy! Peace and tofu to you!",
+		"hateHello": "I'm not mad, I'm just disappointed in your aggressive masculinity.",
+		"tradeRequest": "I'll trade you some artisanal soy candles for your surplus.",
+		"denounced": "Your testosterone levels are really problematic, you know.",
+		"declaringfriendship": "Let's be besties! I'll bring the avocado toast!",
+		
+		"outerColor": [200, 230, 200],
+		"innerColor": [100, 200, 100],
+		"uniqueName": "Soyful Cooperation",
+		"uniques": [
+			"[+2 Food] from every [Plantation]",
+			"[+1 Happiness] from every [Trade Route]",
+			"[-15% Strength] for [All] units <with [50]% chance to ignore this>"
+		],
+		"cities": ["Soyville","Tofu","Avocado","Wholewheat","Smoothie","Gentlesir","Kale","Quinoa","Soyjak's Hamlet","Almond","Oatmilk","Flaxseed","Cuddleburg","Softshell","Brocolli","Spinach","Beanland","Tenderheart","Lovelace","Ahimsa","Equality"]
+	},
+	{
+		"name": "Chuds",
+		"leaderName": "Chud Thundercock",
+		"adjective": ["Chudly"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "GRRR! Me strong! Me smash!",
+		"startIntroPart2": "A race of loud, hyper-masculine bruisers who love lifting, grilling, and asserting dominance. The polar opposite of soy.",
+		
+		"declaringWar": "CHUD SMASH! Your puny cities will fall!",
+		"attacked": "Ahahaha! Finally, a real fight! Bring it, you soyboys!",
+		"defeated": "Grrr... cheater... I'll be back after leg day...",
+		"introduction": "Hey bro, you even lift? Welcome to the iron temple!",
+		
+		"neutralHello": "Sup. Want a protein shake?",
+		"hateHello": "You smell of soy. Step aside, weakling.",
+		"tradeRequest": "Trade me for this premium whey and ribeye.",
+		"denounced": "You are a beta cuck and your civilization is pathetic!",
+		"declaringfriendship": "Alright, you're a solid bro. Let's lift together!",
+		
+		"outerColor": [120, 40, 0],
+		"innerColor": [255, 150, 50],
+		"uniqueName": "Testosterone Surge",
+		"uniques": [
+			"[+15% Strength] for [All] units <when attacking>",
+			"[+1 Production] from every [Camp]",
+			"[-1 Culture] from every [City]"
+		],
+		"cities": ["Iron Temple","Broceps","Gainsville","Steakhouse","Testosteron","Benchpress","Deadlift","Swole","Chadopolis","Dumbbell","Wheytown","Barbell","Grillheim","Carnivora","Meatropolis","Thundercock","Muscleburg","Rageburg","Mogopolis","Gainz","Proteinia"]
 	}
 ]
